@@ -5,7 +5,7 @@
 
 $hostname = "localhost";
 $username = "root";
-$password = "decat102030@";
+$password = "root_password";
 $db = "asteriskcdrdb";
 
 $dbconnect=mysqli_connect($hostname,$username,$password,$db);
