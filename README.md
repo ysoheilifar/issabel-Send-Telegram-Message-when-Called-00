@@ -23,7 +23,7 @@ $telegrambot='TelegramBot';
 $telegramchatid=TelegramChatID;
 ```
 
-6. open /etc/asterisk/extensions_custom.conf create zarbin context and include it
+6. open /etc/asterisk/extensions_custom.conf create zarbinnetwork context and include it
 ```
 [from-internal-custom]
 include => zarbinnetwork
