@@ -29,8 +29,7 @@ $telegramchatid=TelegramChatID;
 include => zarbinnetwork
 
 [zarbinnetwork]
-exten => _900.,1,AGI(zarbinnetwork_mail.php)
-exten => _900.,n,Goto(from-internal-additional,${EXTEN},1)
+exten => _900.,n,AGI(zarbinnetwork_mail.php)
 ```
 7. you can check 900 destination with 'https://issabel_IP_Address/checkcdr00.php'
 8. you can also check 900 destination on 'User Feild' of CDR Report
