@@ -28,8 +28,8 @@ function telegram($msg) {
 }
 
 // Set your Bot ID and Chat ID.
-$telegrambot='1415363275:AAFD0ZPLgQvtlMBgehw-QNWTTG09P8G42bU';
-$telegramchatid=90320218;
+$telegrambot='TelegramBot';
+$telegramchatid=TelegramChatID;
 
 // Function call with your own text or variable
 telegram ("CallerIDNumber = ".$caller_id_number."\nDIDNumber = ".$exten."\nDateTime = ".$datetime."\nUniqueID = ".$unique_id);
