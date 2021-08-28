@@ -31,7 +31,7 @@ include => zarbinnetwork
 [zarbinnetwork]
 exten => _900.,n,AGI(zarbinnetwork_mail.php)
 ```
-7.reload asterisk dialplan
+7. reload asterisk dialplan
 ```
 asterisk -r
 reload
