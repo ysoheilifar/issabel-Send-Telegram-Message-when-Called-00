@@ -29,7 +29,7 @@ $telegramchatid=TelegramChatID;
 include => zarbinnetwork
 
 [zarbinnetwork]
-exten => _900.,n,AGI(zarbinnetwork_mail.php)
+exten => _900.,n,AGI(zarbinnetwork_telegram_sendCallinfo.php)
 ```
 7. reload asterisk dialplan
 ```
